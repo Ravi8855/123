@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+<title>Styled HTML Page | vtu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>VISVESVARAYA TECHNOLOGICAL UNIVERSITY</h2>
+<h3>"JnanaSangama", Belagavi</h3>
+<hr>
+<p>VTU is one of the leading technological university of the country.</p>
+<div>
+VTU is one of the <strong>largest technological university</strong> in India with
+24 years tradition of excellence in <span>Engineering and Technical Education
+,Research and Innovation</span> The university is currently having 182 affilated
+colleges.
+</div>
+<p class = "timing">Open from <time>9:00AM</time> to <time>4:00PM</time> every
+weekday.</p>
+<imgsrc="vtu.jpg" alt="Placeholder Image">
+<p>Visit VTU <a href="https://vtu.ac.in/">Click Here</a> to learn more about our
+ services.</p>
+<marquee class="highlight">Admission Open ForBtech 2024 - 2025</marquee>
+<p class="note">Visvesvaraya Technological University. All Rights Reserved. All
+Content in this webport is for the using stakeholder of VTU Only</p>
+<p id="brand">Powered by Bow and Baan</p>
+</body>
+</html>
+style.css
+* {
+margin: 2px;
+padding: 2px;
+box-sizing: border-box;
+}
+h2 {
+margin-bottom: 10px;
+color: #8B0000;
+font-size: 3em;
+}
+h3 {
+color: #00008B;
+font-size: 2em;
+margin-bottom: 8px;
+}
+hr {
+border: 1px;
+height: 5px;
+background-color: #8B0000;
+margin: 20px 0;
+}
+p {
+font-family: 'Arial', sans-serif;
+line-height: 2;
+font-size: 2em;
+font-style: italic;
+text-align: center;
+color: #06402B;
+}
+h2,h3,p {
+margin-left: 20px;
+}
+div {
+padding: 15px;
+border: 1px solid #bdc3c7;
+background-color: #ecf0f1;
+font-size: 1.5em;
+line-height: 2;
+}
+span {
+color: #e67e22;
+font-weight: bold;
+font-style:italic;
+}
+.timing
+{
+text-align:left;
+font-size:20px;
+color: #ff2c2c;
+}
+time::before {
+content: 'ô';
+color: #ff2c2c;
+}
+img {
+margin-left: 15px;
+padding :10px;
+height: 500px;
+line-height: 2;
+width: 1500px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+max-width: 100%;
+}
+a {
+text-decoration: none;
+color: #ea0e4c;
+}
+a:hover {
+color: #6200ee;
+text-decoration: underline;
+}
+.highlight {
+background-color: yellow;
+padding: 3px;
+line-height: 2;
+font-size:2em;
+}
+.note {
+text-align: left;
+font-size:1.5em;
+font-style:normal;
+}
+#brand {
+font-size: 1.2em;
+text-align: left;
+color: #8e44ad;
+background-color: #D0D0D0;
+padding: 10px;
+border-left: 6px solid #8e44ad;
+font-style:normal;
+}
